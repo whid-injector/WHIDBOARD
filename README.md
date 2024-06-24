@@ -8,13 +8,49 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 
 ## BRUSCHETTA-PRO: MULTIPROTOCOL PROGRAMMER & DEBUGGER
 
+### LINUX
+
+#### UART
+#### SPI
+#### I2C
+#### JTAG & SWD
+
+### WINDOWS
+
+#### Drivers Installation
+Before plugging the WHIDBOARD on a Windows OS do install the driver CH341PAR.EXE <br>
+
+#### UART
+When plugging WHIDBOARD [after installing the correct drivers as recommended above... It will spawn 2 different COM ports. Once is hardwired with the Pin Enumerator feature (i.e. JTGR) with a baudrate of 115200bps. The other COM port will be avialable to be connected at the UART's target device through TX & RX pins on the PCB]. Any serial terminal too can be used. I personally recommend [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). <br>
+
+#### SPI
++ WHIDBOARD Windows Tool
++ SNANDer
++ Flashrom
+  
+#### I2C
+
+####  JTAG & SWD
+
 ## PIN ENUMERATOR (A.k.a. JTGR)
+
+### Flashing The Firmware
+
+### Use Cases
 
 ## LOGIC ANALYZER
 
+### Hardware Introduction
+
+### Flashing the Firmware on Linux
+
+### Flashing the Firmware on Windows
+
+### Use Cases
+
 ## 3D Printed Case
 In this repo you can find the STL CAD file to print your own case for WHIDBOARD. <br>
-Ifyou do not own a 3D printer... there are plenty of cheap services out there.  <br>
+If you do not own a 3D printer... there are plenty of cheap services out there.  <br>
 If you live in EU, I do love the guys from [Craftrum](https://www.craftrum.eu), they already printed ton of cases for me 🥇 <br>
 The screws used are a 2x6mm Flat-Head Screws (e.g. https://s.click.aliexpress.com/e/_DEYh5yR) <br>
 <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/591f14fd-56c5-457f-a79b-716c6789c808" width=50% height=50%>    <br>

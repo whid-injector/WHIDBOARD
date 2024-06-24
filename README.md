@@ -10,14 +10,14 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 
 ## PIN ENUMERATOR (A.k.a. JTGR)
 
-## LOGCI ANALYZER
+## LOGIC ANALYZER
 
 ## 3D Printed Case
 In this repo you can find the STL CAD file to print your own case for WHIDBOARD. <br>
 Ifyou do not own a 3D printer... there are plenty of cheap services out there.  <br>
-If you live in EU, I do love the guys from Craftrum, they already printed ton of cases for me 🥇 <br>
+If you live in EU, I do love the guys from [Craftrum](https://www.craftrum.eu), they already printed ton of cases for me 🥇 <br>
 The screws used are a 2x6mm Flat-Head Screws (e.g. https://s.click.aliexpress.com/e/_DEYh5yR) <br>
-
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/591f14fd-56c5-457f-a79b-716c6789c808" width=50% height=50%>    <br>
 
 ## Compatible SOP8 & SOP16 Adaptors
 https://s.click.aliexpress.com/e/_DFY8wcn <br>

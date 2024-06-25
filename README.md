@@ -9,6 +9,12 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 ## BRUSCHETTA-PRO: MULTIPROTOCOL PROGRAMMER & DEBUGGER
 
 ### LINUX
+#### Udev Rules Configuration
+Copy 40-persistent-ch347.rules in the directory /etc/udev/rules.d <br>
+With the command:<br>
+`sudo cp 40-persistent-ch347.rules /etc/udev/rules.d/`
+Restart udev service with the command:<br>
+`sudo udevadm control --reload-rules`
 
 #### UART
 #### SPI

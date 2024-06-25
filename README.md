@@ -122,11 +122,17 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
   
   https://s.click.aliexpress.com/e/_DmAewbN <br>
   <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/e3e6a079-be43-4891-ba33-9f0e9faee293" width=50% height=50%>    <br>
+
+  https://s.click.aliexpress.com/e/_DkWdSpp <br>
+  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/0e76ddfe-076e-4b81-91d7-d2fe16581b4c" width=50% height=50%>    <br>
+
+  https://s.click.aliexpress.com/e/_DdUBzir <br>
+  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/cb7be7b9-4236-481d-adad-9647c30d9ec5" width=50% height=50%>    <br>
   
   https://s.click.aliexpress.com/e/_DEcb3Zl <br>
   <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/b90da7b9-58e0-4b17-a58b-c8d496bca79d" width=50% height=50%>    <br>
   
-  https://www.aliexpress.com/item/1005005709533214.html <br>
+  https://s.click.aliexpress.com/e/_DE1eEVh <br>
   <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/aaec8cd1-3615-4089-9931-4b4a7f478b36" width=50% height=50%>    <br>
 
 ## Tips & Tricks

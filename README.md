@@ -1,9 +1,9 @@
 # WHIDBOARD
 🔥😎🏴‍☠️ **WHIDBOARD: Plug it in, Set it up &amp; Get ready to Hack!** 🏴‍☠️😎🔥<br>
 WHIDBOARD is the ultimate tool-suite for Hardware Hackers. It is designed to act as the perfect Swiss-Army-Knife for hacking any (I)IoT & Embedded devices.
-Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). Nonetheless, it also allows the hacker to enumerate (UART, JTAG & SWD) thanks to its 24 channels' Pin Enumerator feature, as well as the ability to act as a 8 channels Logic Analyzer at 24MHz.
+Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). Nonetheless, it also allows the hacker to enumerate (UART, JTAG & SWD) thanks to its 24 channels' Pin Enumerator feature, as well as the ability to act as a 8 channels Logic Analyzer at 24MHz. <br>
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/86d801be-93d6-4ebd-83dd-67e71f1b41a6" width=50% height=50%> 
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/86d801be-93d6-4ebd-83dd-67e71f1b41a6" width=40% height=40%> 
 
 
 ## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​-​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
@@ -13,10 +13,10 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
     𝐓𝐰𝐨 𝐭𝐡𝐢𝐧𝐠𝐬 𝐚𝐫𝐞 𝐯𝐞𝐫𝐲 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭: <br>
       1) You have to select the right Voltage **BEFORE** turning-on the DUT (Device Under Test) and **BEFORE** plugging-in the WHIDBOARD into the PC. <br>
       2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! <br>
+      
+  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/92120d67-7f03-4040-8826-610156db9fd9" width=30% height=30%> 
 
-  
-
-### LINUX
+### 🐧LINUX
 #### Udev Rules Configuration
   Copy [40-persistent-ch347.rules](https://github.com/whid-injector/WHIDBOARD/blob/main/Linux/40-persistent-ch347.rules) in the directory /etc/udev/rules.d <br>
   With the command: `sudo cp 40-persistent-ch347.rules /etc/udev/rules.d/`<br>
@@ -30,9 +30,10 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 #### SPI & I2C
 
   In order to use WHIDBOARD as SPI reader/programmer be sure you have the Jumper on the CS0-Cx as in the image below. <br>
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/84e8acf0-5d6b-4e1e-9416-65b591129294" width=30% height=30%><br>
-      Nearby, there is also a DIP-switch to enable/disable the WP pin.<br>
-
+  Nearby, there is also a DIP-switch to enable/disable the WP pin.<br>
+  
+  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/84e8acf0-5d6b-4e1e-9416-65b591129294" width=30% height=30%><br>
+      
   + **SNANDer**<br>
       This is a tool for the BRUSCHETTABOARD-PRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.  To compile SNANDer on Linux:
       ```
@@ -74,7 +75,7 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 
 #### JTAG & SWD
 
-### WINDOWS
+### 🪟WINDOWS
 
 #### Drivers Installation
   Before plugging the WHIDBOARD on a Windows OS do install the driver [CH341PAR.EXE](https://github.com/whid-injector/WHIDBOARD/blob/main/Windows/Drivers/CH341PAR.EXE) <br>
@@ -110,8 +111,57 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 ####  JTAG & SWD
 
 ## ​🇵​​🇮​​🇳​ ​🇪​​🇳​​🇺​​🇲​​🇪​​🇷​​🇦​​🇹​​🇴​​🇷 (A.k.a. JTGR)
+  	
+The Pin Enumerator feature is based on the [JTAGULATOR](https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Grand-JTAGulator-Slides.pdf) design ([That reached End-of-Life and it has been discontinued AFAIK](https://www.parallax.com/product/jtagulator/)).
+This tool is extremely useful to discover on-chip debug (OCD) interfaces. On-chip debug (OCD) interfaces can provide chip-level control of a target device and are a primary vector used by engineers, researchers, and hackers to extract program code or data, modify memory contents, or affect device operation on-the-fly. Depending on the complexity of the target device, manually locating available OCD connections can be a difficult and time consuming task, sometimes requiring physical destruction or modification of the device.
+
+  Main Features:
+  
++ Detection of UART serial, JTAG and SWD protocols' pins <br>
++ Adjustable target I/O voltage for level translation: 1.4 to 3.3 V <br>
++ 24 channels with input protection circuitry (i.e. both ESD and EM Filtering) <br>
++ Smooth interaction with OpenOCD (i.e. as JTAG/SWD debugger) and Pulseview (i.e. as a 24CH basic Logic Analyzer) <br>
++ USB interface for menu-based control from host computer (Windows, macOS, Linux) <br>   
+  	
+To interact with the Pin Enumerator you have to plug the WHIDBOARD and connect to one of the two UART serial ports spawned. Usually in Linux is identified as /dev/ttyACM0.  <br>   
+Usage example: `sudo screen /dev/ttyACM0 115200` then press any key and you will be welcomed by the JTAGULATOR menu. <br>
 
 ### Flashing The Firmware
+  
+To flash new version of the JTAGULATOR firmware (available here https://github.com/grandideastudio/jtagulator) is **HEAVILY RECOMMENDED** to use Linux!
+
+```
+git clone https://github.com/grandideastudio/jtagulator
+wget https://github.com/parallaxinc/PropLoader/releases/download/v1.0-37/proploader-linux.zip
+unzip proploader-linux.zip 
+chmod +x proploader
+sudo cp proploader /usr/bin
+cd jtagulator
+```
+   
+**NOW PLUG-IN WHIDBOARD AND WAIT at least 60 seconds...**
+  	
+TEST LOAD IN RAM ONLY:
+`sudo proploader -p /dev/ttyACM0 -v JTAGulator.eeprom` <br>
+[IMPORTANT]: WAIT at least 60 seconds and then check if JTGR works: `sudo screen /dev/ttyACM0 115200`
+  	
+FLASH EEPROM:
+`sudo proploader -p /dev/ttyACM0 -v -e JTAGulator.eeprom` <br>
+[IMPORTANT]: WAIT at least 60 seconds and then check if JTGR works: `sudo screen /dev/ttyACM0 115200`
+
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/91b85693-23d0-4aaa-9b52-7cc4e0f8849d" width=50% height=50%>    <br>
+
+[OPTIONAL STEPS] IN CASE YOU WANT TO COMPILE YOUR OWN FW:
+      
+```
+wget https://www.maccasoft.com/wp-content/downloads/openspin_1_00_81-linux-x86_64.tar.gz
+tar -xzvf openspin_1_00_81-linux-x86_64.tar.gz
+chmod +x openspin
+sudo cp openspin /usr/bin
+cd /home/whid/WHIDBOARD/JTGR/jtagulator
+openspin -o JTGR.eeprom -e -v JTAGulator.spin
+sudo proploader -p /dev/ttyACM0 -v -e JTGR.eeprom
+```
 
 ### Use Cases
 

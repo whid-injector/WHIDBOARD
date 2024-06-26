@@ -6,7 +6,15 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/86d801be-93d6-4ebd-83dd-67e71f1b41a6" width=50% height=50%> 
 
 
-## BRUSCHETTA-PRO: MULTIPROTOCOL PROGRAMMER & DEBUGGER
+## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​-​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
+
+### Logic Levels & Voltage Range
+  The BRUSCHETTA-PRO (i.e. part of the WHIDBOARD), supports the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). <br>
+    𝐓𝐰𝐨 𝐭𝐡𝐢𝐧𝐠𝐬 𝐚𝐫𝐞 𝐯𝐞𝐫𝐲 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭: <br>
+      1) You have to select the right Voltage **BEFORE** turning-on the DUT (Device Under Test) and **BEFORE** plugging-in the WHIDBOARD into the PC. <br>
+      2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! <br>
+
+  
 
 ### LINUX
 #### Udev Rules Configuration
@@ -15,7 +23,16 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
   Restart udev service with the command: `sudo udevadm control --reload-rules`
 
 #### UART
+
+  In order to use the WHIDBOARD as UART Serial debugger you need to use any preferred terminal tool. It is recommended to use the classic Screen Linux utility. <br>
+  Usage Example: `sudo screen /dev/ttyACM1 115200`
+
 #### SPI & I2C
+
+  In order to use WHIDBOARD as SPI reader/programmer be sure you have the Jumper on the CS0-Cx as in the image below. <br>
+      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/84e8acf0-5d6b-4e1e-9416-65b591129294" width=30% height=30%><br>
+      Nearby, there is also a DIP-switch to enable/disable the WP pin.<br>
+
   + **SNANDer**<br>
       This is a tool for the BRUSCHETTABOARD-PRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.  To compile SNANDer on Linux:
       ```
@@ -92,13 +109,13 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
 
 ####  JTAG & SWD
 
-## PIN ENUMERATOR (A.k.a. JTGR)
+## ​🇵​​🇮​​🇳​ ​🇪​​🇳​​🇺​​🇲​​🇪​​🇷​​🇦​​🇹​​🇴​​🇷 (A.k.a. JTGR)
 
 ### Flashing The Firmware
 
 ### Use Cases
 
-## LOGIC ANALYZER
+## ​🇱​​🇴​​🇬​​🇮​​🇨​ ​🇦​​🇳​​🇦​​🇱​​🇾​​🇿​​🇪​​🇷​
 
 ### Hardware Introduction
 

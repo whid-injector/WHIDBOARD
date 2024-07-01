@@ -1,0 +1,36 @@
+TO FLASH USE ONE OF THE COMMAND BELOW!!!
+-------------------------------------------
+cd /home/whid/WHIDBOARD/fxload
+sudo ./fxload -I fx2lafw-sigrok-fx2-8ch.ihx -D /dev/bus/usb/XXX/YYY -d 1d50:608c -c 0x1 -s Vend_Ax.hex -t fx2lp -v
+
+Where XXX and YYY are taken from the "lsusb" command's output.
+XXX = Bus = 002 in the example below
+YYY = Device =  007 in the example below
+[Example]:
+Bus 002 Device 007: ID 04b4:8613 Cypress Semiconductor Corp. CY7C68013 EZ-USB FX2 USB 2.0 Development
+
+
+[Example]:
+sudo ./fxload -I fx2lafw-sigrok-fx2-8ch.ihx -D /dev/bus/usb/002/007 -d 1d50:608c -c 0x1 -s Vend_Ax.hex -t fx2lp -v
+
+
+EXAMPLES FROM OFFICIAL README
+================================
+
+Flash a custom VID:PID into a device EEPROM:
+
+./fxload -D /dev/bus/usb/aaa/bbb -c 0x01 -s Vend_Ax.hex -t fx2lp -d xxxx:xxxx
+
+You can retreive the correct path by reading the first numbers in front of the
+device entry provided in `lsusb` in front of the FX2 device you are trying to
+program.
+
+Flash a custom firmware into a device EEPROM usind default VID:PID:
+
+./fxload -D /dev/bus/usb/aaa/bbb -I firmware.hex -c 0x01 -s Vend_Ax.hex -t fx2lp
+
+
+Flash a custom firmware into a device EEPROM using custom VID:PID:
+
+./fxload -D /dev/bus/usb/aaa/bbb -I firmware.hex -c 0x01 -s Vend_Ax.hex -t fx2lp -d PIDx:VIDx
+

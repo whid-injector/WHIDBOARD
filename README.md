@@ -167,11 +167,30 @@ sudo proploader -p /dev/ttyACM0 -v -e JTGR.eeprom
 
 ## ​🇱​​🇴​​🇬​​🇮​​🇨​ ​🇦​​🇳​​🇦​​🇱​​🇾​​🇿​​🇪​​🇷​
 
+This feature of WHIDBOARD supports a maximum sampling rate of up to 24MHz and can analyze more than a hundred different protocols. This makes it ideal for electronic engineers debugging tasks.<br>
+
 ### Hardware Introduction
 
-### Flashing the Firmware on Linux
+This logic analyzer design is based on the Cypress CY7C6813A controller and its own the block-diagram is represented below:
+![image](https://github.com/whid-injector/WHIDBOARD/assets/26245612/39fdee0a-c93d-4e06-8b07-5695950fb687)
 
-### Flashing the Firmware on Windows
+### Flashing the Firmware on Linux
+You can find fxload and all firmwares needed, [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Linux/fxload).
+```
+cd /home/whid/WHIDBOARD/fxload
+sudo ./fxload -I fx2lafw-sigrok-fx2-8ch.ihx -D /dev/bus/usb/XXX/YYY -d 1d50:608c -c 0x1 -s Vend_Ax.hex -t fx2lp -v
+```
+Where XXX and YYY are taken from the "lsusb" command's output. <br>
+XXX = Bus = 002 in the example below <br>
+YYY = Device =  007 in the example below <br>
+**Example:** <br>
+```
+Bus 002 Device 007: ID 04b4:8613 Cypress Semiconductor Corp. CY7C68013 EZ-USB FX2 USB 2.0 Development
+```
+**Example:** <br>
+```
+sudo ./fxload -I fx2lafw-sigrok-fx2-8ch.ihx -D /dev/bus/usb/002/007 -d 1d50:608c -c 0x1 -s Vend_Ax.hex -t fx2lp -v
+```
 
 ### Use Cases
 

@@ -51,6 +51,10 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
       snander -r SPI_Firmware_dump.bin
      ```
 
+      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/5b477959-1429-43c1-8020-c29d9e531f26" width=50% height=50%><br>
+      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4f4aedd5-4b72-48d2-bb36-29b7848d400a" width=50% height=50%><br>
+
+
   + **Flashrom**<br>
       This is yet another tool for the BRUSCHETTABOARD-PRO to read/write both SPI flash memories. Its usage is pretty straight forward.
       You can refer to the following [guide](https://www.flashrom.org/dev_guide/building_from_source.html#installing-dependencies-1) to compile Flashrom on Linux OR use the following instructions:
@@ -122,9 +126,6 @@ This tool is extremely useful to discover on-chip debug (OCD) interfaces. On-chi
 + 24 channels with input protection circuitry (i.e. both ESD and EM Filtering) <br>
 + Smooth interaction with OpenOCD (i.e. as JTAG/SWD debugger) and Pulseview (i.e. as a 24CH basic Logic Analyzer) <br>
 + USB interface for menu-based control from host computer (Windows, macOS, Linux) <br>   
-  	
-To interact with the Pin Enumerator you have to plug the WHIDBOARD and connect to one of the two UART serial ports spawned. Usually in Linux is identified as /dev/ttyACM0.  <br>   
-Usage example: `sudo screen /dev/ttyACM0 115200` then press any key and you will be welcomed by the JTAGULATOR menu. <br>
 
 ### Flashing The Firmware
   
@@ -164,6 +165,24 @@ sudo proploader -p /dev/ttyACM0 -v -e JTGR.eeprom
 ```
 
 ### Use Cases
+  	
+To interact with the Pin Enumerator you have to plug the WHIDBOARD and connect to one of the two UART serial ports spawned. Usually in Linux is identified as /dev/ttyACM0.  <br>   
+Usage example: `sudo screen /dev/ttyACM0 115200` then press any key and you will be welcomed by the JTAGULATOR menu. <br>
+    
+    
+  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/f6627e09-008b-4064-b085-5766478a6963" width=50% height=50%>    <br>
+    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/746f82cf-b3ce-4581-b2ab-9f05a28e4999" width=50% height=50%>    <br>
+    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/75ad8724-2835-4ec7-9ebd-756fd2b92920" width=50% height=50%>    <br>
+    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/b5ba9e8d-d8f7-4730-a6a8-59e1c8f153ef" width=50% height=50%>    <br>
+    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/a885b474-3161-49cf-aeae-0fc5d5afe8f7" width=50% height=50%>    <br>
+
+**JTGR as Logic Analyzer (Not Recommended since is too slow):** <br>
+The JTGR works ok on PulseView… BUT is too slow for anything usable… It's NOT FAST ENOUGH!!! <br>
+Remember to close the serial terminal BEFORE opening Pulseview! You need to free the ttyACM0 connection between JTGR and Pulseview!!! Once done playing with JTGR + Pluseview… go back to the serial connection with SCREEN/PUTTY and press CTRL+X to exit the Logic Analyzer feature!!!
+
+  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/f801af0f-cbbc-454d-bf4f-888f6926f5ae" width=50% height=50%>    <br>
+    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/ab8a5d5d-59e7-4462-b5f5-bcb58a15312f" width=50% height=50%>    <br>
+    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4731f8f1-42d7-4860-931c-afd1d52194ef" width=50% height=50%>    <br>
 
 ## ​🇱​​🇴​​🇬​​🇮​​🇨​ ​🇦​​🇳​​🇦​​🇱​​🇾​​🇿​​🇪​​🇷​
 

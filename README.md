@@ -219,7 +219,7 @@ The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on b
 <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/c8cd70a3-ab2e-4ea5-8626-c28bfa17dbb2" width=70% height=70%>    <br>
 
 ## 3D Printed Case
-  In this repo you can find the STL CAD file to print your own case for WHIDBOARD. <br>
+  [Here](https://github.com/whid-injector/WHIDBOARD/tree/main/3D_Case) you can find the STL CAD file to print your own case for WHIDBOARD. <br>
   If you do not own a 3D printer... there are plenty of cheap services out there.  <br>
   If you live in EU, I do love the guys from [Craftrum](https://www.craftrum.eu), they already printed ton of cases for me 🥇 <br>
   The screws used are a 2x6mm Flat-Head Screws (e.g. https://s.click.aliexpress.com/e/_DEYh5yR) <br>

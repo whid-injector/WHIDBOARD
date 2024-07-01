@@ -193,6 +193,11 @@ sudo ./fxload -I fx2lafw-sigrok-fx2-8ch.ihx -D /dev/bus/usb/002/007 -d 1d50:608c
 ```
 
 ### Use Cases
+The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on both [Linux](https://sigrok.org/wiki/Linux) & [Windows](https://sigrok.org/wiki/Windows).
+
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/6777c847-b9d8-4d60-b6cf-1409532bad8f" width=70% height=70%>    <br>
+
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/c8cd70a3-ab2e-4ea5-8626-c28bfa17dbb2" width=70% height=70%>    <br>
 
 ## 3D Printed Case
   In this repo you can find the STL CAD file to print your own case for WHIDBOARD. <br>

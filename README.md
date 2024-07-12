@@ -12,7 +12,10 @@ Thanks to its core controller (a.k.a. BRUSCHETTAPRO) it can support the interact
   The BRUSCHETTA-PRO (i.e. part of the WHIDBOARD), supports the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). <br>
     𝐓𝐰𝐨 𝐭𝐡𝐢𝐧𝐠𝐬 𝐚𝐫𝐞 𝐯𝐞𝐫𝐲 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭: <br>
       1) You have to select the right Voltage **BEFORE** turning-on the DUT (Device Under Test) and **BEFORE** plugging-in the WHIDBOARD into the PC. <br>
-      2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! <br>
+      2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! **Remove Jumper and connect directly the 
+external Voltage Reference to Pin 1** <br>
+
+  <img src="https://github.com/user-attachments/assets/8eb1c5b4-af61-438d-a133-44e7e6f67090" width=40% height=40%>      
       
   <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/92120d67-7f03-4040-8826-610156db9fd9" width=30% height=30%> 
 

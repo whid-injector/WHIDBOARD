@@ -82,6 +82,37 @@ external Voltage Reference to Pin 1** <br>
 
 #### JTAG & SWD
 
+You can find copy of the WHIDBOARD's config files for both SWD & JTAG here: https://github.com/whid-injector/WHIDBOARD/tree/main/Linux/openocd-linux
+
+Using the BRUSCHETTAPRO part of WHIDBOARD as JTAG/SWD debugger is pretty straight forward. Either use WHIDOS ISO image or compile your own OpenOCD.
+
+```
+git clone --recursive https://github.com/**<REPO-GOES-HERE>**
+sudo apt install libtool pkg-config texinfo libusb-dev libusb-1.0-0-dev libftdi-dev autoconf automake make git libftdi* libhidapi-hidraw0 software-properties-common  apt-transport-https ca-certificates
+sudo ldconfig
+mkdir ~/openocd-WHIDBOARD
+cd openocd-WHIDBOARD
+chmod -R 755 OpenOCD_SourceCode_CH347/
+cd OpenOCD_SourceCode_CH347/
+sudo ./bootstrap 
+sudo autoreconf --force --install
+./configure --prefix=/home/whid/openocd-WHIDBOARD/ --disable-doxygen-html --disable-doxygen-pdf --disable-gccwarnings --disable-wextra --enable-ch347
+make
+make install
+```
+
+In case, after issuing the "make" command... you will get errors similar to this ones... 
+      <img src="https://github.com/user-attachments/assets/5a5753af-e428-4c1e-a0bc-ef1c6c799964" width=50% height=50%>
+
+Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/helper/jim-nvp.c "
+
+**Usage Example:** <br>
+`sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
+`sudo ./openocd -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
+
+<img src="https://github.com/user-attachments/assets/99920ae7-2d1e-4226-8afe-c2b2005cf9a6" width=30% height=30%>
+<img src="https://github.com/user-attachments/assets/e76bf937-4de6-4971-aab7-e6bcda71ac2e" width=70% height=70%>
+
 ### 🪟WINDOWS
 
 #### Drivers Installation
@@ -112,10 +143,16 @@ external Voltage Reference to Pin 1** <br>
   
       Usage Example:<br>
       `flashrom.exe -p ch347_spi -r firmware.bin`<br>
-  
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/1bcf9bb0-76b1-45b0-83b9-0a8e001f7b78" width=50% height=50%>
+
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/1bcf9bb0-76b1-45b0-83b9-0a8e001f7b78" width=50% height=50%>
 
 ####  JTAG & SWD
+
+You can find copy of precompiled OpenOCD.exe and copy of the WHIDBOARD's config files for both SWD & JTAG here: https://github.com/whid-injector/WHIDBOARD/tree/main/Windows/opeoncd-win
+
+**Usage Example:** <br>
+`openocd.exe -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
+`openocd.exe -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
 
 ## ​🇵​​🇮​​🇳​ ​🇪​​🇳​​🇺​​🇲​​🇪​​🇷​​🇦​​🇹​​🇴​​🇷 (A.k.a. JTGR)
   	

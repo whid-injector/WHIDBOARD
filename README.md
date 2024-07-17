@@ -54,8 +54,7 @@ external Voltage Reference to Pin 1** <br>
       snander -r SPI_Firmware_dump.bin
      ```
 
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/5b477959-1429-43c1-8020-c29d9e531f26" width=50% height=50%><br>
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4f4aedd5-4b72-48d2-bb36-29b7848d400a" width=50% height=50%><br>
+<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/5b477959-1429-43c1-8020-c29d9e531f26" width=51% height=51%> <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4f4aedd5-4b72-48d2-bb36-29b7848d400a" width=49% height=49%><br>
 
 
   + **Flashrom**<br>
@@ -110,8 +109,7 @@ Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/hel
 `sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
 `sudo ./openocd -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
 
-<img src="https://github.com/user-attachments/assets/99920ae7-2d1e-4226-8afe-c2b2005cf9a6" width=30% height=30%>
-<img src="https://github.com/user-attachments/assets/e76bf937-4de6-4971-aab7-e6bcda71ac2e" width=70% height=70%>
+<img src="https://github.com/user-attachments/assets/99920ae7-2d1e-4226-8afe-c2b2005cf9a6" width=27% height=27%> <img src="https://github.com/user-attachments/assets/e76bf937-4de6-4971-aab7-e6bcda71ac2e" width=60% height=60%>
 
 ### 🪟WINDOWS
 

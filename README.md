@@ -54,7 +54,7 @@ external Voltage Reference to Pin 1** <br>
       snander -r SPI_Firmware_dump.bin
      ```
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/5b477959-1429-43c1-8020-c29d9e531f26" width=51% height=51%> <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4f4aedd5-4b72-48d2-bb36-29b7848d400a" width=49% height=49%><br>
+      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/5b477959-1429-43c1-8020-c29d9e531f26" width=51% height=51%> <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4f4aedd5-4b72-48d2-bb36-29b7848d400a" width=49% height=49%><br>
 
 
   + **Flashrom**<br>

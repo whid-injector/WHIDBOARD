@@ -6,7 +6,7 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/86d801be-93d6-4ebd-83dd-67e71f1b41a6" width=40% height=40%> 
 
 
-## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​-​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
+## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
 
 ### Logic Levels & Voltage Range
   The BRUSCHETTAPRO (i.e. part of the WHIDBOARD), supports the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). <br>

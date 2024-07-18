@@ -81,7 +81,7 @@ external Voltage Reference to Pin 1** <br>
 
 #### JTAG & SWD
 
-You can find copy of the WHIDBOARD's config files for both SWD & JTAG here: https://github.com/whid-injector/WHIDBOARD/tree/main/Linux/openocd-linux
+You can find copy of the WHIDBOARD's config files for both SWD & JTAG  [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Linux/openocd-linux). <br>
 
 Using the BRUSCHETTAPRO part of WHIDBOARD as JTAG/SWD debugger is pretty straight forward. Either use WHIDOS ISO image or compile your own OpenOCD.
 
@@ -146,13 +146,13 @@ Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/hel
 
 ####  JTAG & SWD
 
-You can find copy of precompiled OpenOCD.exe and copy of the WHIDBOARD's config files for both SWD & JTAG here: https://github.com/whid-injector/WHIDBOARD/tree/main/Windows/opeoncd-win
+You can find copy of precompiled OpenOCD.exe and copy of the WHIDBOARD's config files for both SWD & JTAG [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Windows/opeoncd-win). <br> 
 
 **Usage Example:** <br>
 `openocd.exe -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
 `openocd.exe -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
 
-## ​🇵​​🇮​​🇳​ ​🇪​​🇳​​🇺​​🇲​​🇪​​🇷​​🇦​​🇹​​🇴​​🇷 (A.k.a. JTGR)
+## ​🇵​​🇮​​🇳​ 🇪​​🇳​​🇺​​🇲​​🇪​​🇷​​🇦​​🇹​​🇴​​🇷 (A.k.a. JTGR)
   	
 The Pin Enumerator feature is based on the [JTAGULATOR](https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Grand-JTAGulator-Slides.pdf) design ([That reached End-of-Life and it has been discontinued AFAIK](https://www.parallax.com/product/jtagulator/)).
 This tool is extremely useful to discover on-chip debug (OCD) interfaces. On-chip debug (OCD) interfaces can provide chip-level control of a target device and are a primary vector used by engineers, researchers, and hackers to extract program code or data, modify memory contents, or affect device operation on-the-fly. Depending on the complexity of the target device, manually locating available OCD connections can be a difficult and time consuming task, sometimes requiring physical destruction or modification of the device.

@@ -9,7 +9,7 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 ## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​-​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
 
 ### Logic Levels & Voltage Range
-  The BRUSCHETTA-PRO (i.e. part of the WHIDBOARD), supports the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). <br>
+  The BRUSCHETTAPRO (i.e. part of the WHIDBOARD), supports the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). <br>
     𝐓𝐰𝐨 𝐭𝐡𝐢𝐧𝐠𝐬 𝐚𝐫𝐞 𝐯𝐞𝐫𝐲 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭: <br>
       1) You have to select the right Voltage **BEFORE** turning-on the DUT (Device Under Test) and **BEFORE** plugging-in the WHIDBOARD into the PC. <br>
       2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! **Remove Jumper and connect directly the 
@@ -38,7 +38,7 @@ external Voltage Reference to Pin 1** <br>
   <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/84e8acf0-5d6b-4e1e-9416-65b591129294" width=30% height=30%><br>
       
   + **SNANDer**<br>
-      This is a tool for the BRUSCHETTABOARD-PRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.  To compile SNANDer on Linux:
+      This is a tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.  To compile SNANDer on Linux:
       ```
       sudo apt install mingw-w64 gcc-mingw-w64-x86-64 libusb-1.0-0-dev
       sudo ldconfig
@@ -58,7 +58,7 @@ external Voltage Reference to Pin 1** <br>
 
 
   + **Flashrom**<br>
-      This is yet another tool for the BRUSCHETTABOARD-PRO to read/write both SPI flash memories. Its usage is pretty straight forward.
+      This is yet another tool for the BRUSCHETTAPRO to read/write both SPI flash memories. Its usage is pretty straight forward.
       You can refer to the following [guide](https://www.flashrom.org/dev_guide/building_from_source.html#installing-dependencies-1) to compile Flashrom on Linux OR use the following instructions:
       ```sudo su
       apt-get install -y gcc meson ninja-build pkg-config python3-sphinx libcmocka-dev libpci-dev libusb-1.0-0-dev libftdi1-dev libjaylink-dev
@@ -121,12 +121,12 @@ Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/hel
 
 #### SPI & I2C
   + **WHIDBOARD Windows Tool**<br>
-    This is a pre-compiled (GUI-based) tool for the BRUSCHETTABOARD-PRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.<br>
+    This is a pre-compiled (GUI-based) tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.<br>
       
       <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/7b9c49de-485b-4eb2-9e7f-51d049ad2230" width=50% height=50%>
       
   + **SNANDer**<br>
-    This is yet another pre-compiled tool for the BRUSCHETTABOARD-PRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.
+    This is yet another pre-compiled tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.
   
       Usage Example:<br>
       `snander.exe -i`<br>
@@ -137,7 +137,7 @@ Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/hel
       <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/1fb0a2e6-f313-4410-9465-b783772eed6c" width=50% height=50%>
   
   + **Flashrom**<br>
-    This is yet another pre-compiled tool for the BRUSCHETTABOARD-PRO to read/write SPI flash memories. Its usage is pretty straight forward.
+    This is yet another pre-compiled tool for the BRUSCHETTAPRO to read/write SPI flash memories. Its usage is pretty straight forward.
   
       Usage Example:<br>
       `flashrom.exe -p ch347_spi -r firmware.bin`<br>

@@ -47,7 +47,7 @@ external Voltage Reference to Pin 1** <br>
       ./build-for-linux.sh
       ```
       Now you can try if it works and then copy snander ELF into /usr/local/bin.<br>
-      Usage Examples:<br>
+      **Usage Examples:**<br>
       ```
       snander -i
       snander -E 24c08 -r I2C_Firmware_dump.bin

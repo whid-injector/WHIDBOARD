@@ -28,7 +28,7 @@ external Voltage Reference to Pin 1** <br>
 #### UART
 
   In order to use the WHIDBOARD as UART Serial debugger you need to use any preferred terminal tool. It is recommended to use the classic Screen Linux utility. <br>
-  Usage Example: `sudo screen /dev/ttyACM1 115200`
+  **Usage Example:** `sudo screen /dev/ttyACM1 115200`
 
 #### SPI & I2C
 

@@ -121,7 +121,7 @@ Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/hel
 
 #### SPI & I2C
   + **WHIDBOARD Windows Tool**<br>
-    This is a pre-compiled (GUI-based) tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.<br>
+    This is a pre-compiled (GUI-based) tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward. You can find the sources [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Windows/WHIDBOARD%20Tool/sourcecode).<br>
       
       <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/7b9c49de-485b-4eb2-9e7f-51d049ad2230" width=50% height=50%>
       

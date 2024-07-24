@@ -132,8 +132,8 @@ Now you can remove the "temporary" folder and use OpenOCD.
 
 
 **Usage Example:** <br>
-`sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
-`sudo ./openocd -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
+`sudo openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
+`sudo openocd -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
 
 <img src="https://github.com/user-attachments/assets/99920ae7-2d1e-4226-8afe-c2b2005cf9a6" width=27% height=27%> <img src="https://github.com/user-attachments/assets/e76bf937-4de6-4971-aab7-e6bcda71ac2e" width=60% height=60%>
 

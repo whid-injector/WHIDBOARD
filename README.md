@@ -140,7 +140,7 @@ Now you can remove the "temporary" folder and use OpenOCD.
 ### 🪟WINDOWS
 
 #### Drivers Installation
-  Before plugging the WHIDBOARD on a Windows OS do install the driver [CH341PAR.EXE](https://github.com/whid-injector/WHIDBOARD/blob/main/Windows/Drivers/CH341PAR.EXE) <br>
+  To use the BRUSCHETTAPRO on a Windows OS do install the driver [CH341PAR.EXE](https://github.com/whid-injector/WHIDBOARD/blob/main/Windows/Drivers/CH341PAR.EXE) <br>
 
 #### UART
   When plugging WHIDBOARD [after installing the correct drivers as recommended above... It will spawn 2 different COM ports. One it is hard-wired to the Pin Enumerator feature (i.e. JTGR) and communicates with a baudrate of 115200bps. The other COM port, will be avialable to be connected at the UART's target device through TX & RX pins on the PCB]. Any serial terminal tool for Windows can be used at this point. I personally recommend [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). <br>

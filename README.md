@@ -130,11 +130,6 @@ cd ..
 make install
 ```
 
-In case, after issuing the "make" command... you will get errors similar to this ones... 
-      <img src="https://github.com/user-attachments/assets/5a5753af-e428-4c1e-a0bc-ef1c6c799964" width=50% height=50%>
-
-Add "#include <stdio.h>" on both files "src/helper/configuration.h" and "src/helper/jim-nvp.c "
-
 **Usage Example:** <br>
 `sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
 `sudo ./openocd -f WHIDBOARD_SWD.cfg -f target.cfg`<br>

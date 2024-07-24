@@ -5,6 +5,32 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 
 <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/86d801be-93d6-4ebd-83dd-67e71f1b41a6" width=40% height=40%> 
 
+## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
+  
+  WHIDOS is a Linux-based Operative System preconfigured with all tools to work with WHIDBOARD and BRUSCHETTABOARD:<br>
+  - Linux's Screen utility for BRUSCHETTAPRO's UART or PinEnumerator terminal
+  - Flashrom to read SPI flash memories *
+  - OpenOCD to use the JTAG & SWD *
+  - SNANDer to read SPI NANDs & NORs memories *
+  - UFPROG tool-suite (ufsnandprog,  ufsnandtest,  ufsnorprog and   ufsnortest)  to read SPI NANDs & NORs memories
+  - Pulseview & Sigrok to use with the Logic Analyzer feature
+  - All the utilities (i.e. fxload, propoloader, openspin, etc.) to build and flash both PinEnumerator and Logic Analyzer firmwares
+    
+      *Works both WHIDBOARD's BRUSCHETTAPRO or the classic BRUSCHETTABOARD<br>
+  
+  Plus some basic tools like:
+  - Nmap & Zenmap
+  - Wireshark
+  - Ghidra
+  - ZAP Proxy
+  - Binwalk
+  - Unblob
+  
+  The username and password are both: **whidos**<br>
+  
+  You can find a copy of the ISO [here](<PLACE HERE URL GOOGLE DRIVE>).<br>
+
+
 
 ## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
 

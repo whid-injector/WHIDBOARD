@@ -129,7 +129,7 @@ cd /src
 cd ..
 make install
 ```
-Now you can remove the "temporary" folder and use OpenOCD located in /home/<HERE-YOUR-USERNAME>/openocd
+Now you can remove the "temporary" folder and use OpenOCD located in /home/HERE-YOUR-USERNAME/openocd
 
 **Usage Example:** <br>
 `sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>

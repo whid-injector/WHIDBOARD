@@ -115,21 +115,21 @@ Using the BRUSCHETTAPRO part of WHIDBOARD as JTAG/SWD debugger is pretty straigh
 sudo apt install libtool pkg-config texinfo libusb-dev libusb-1.0-0-dev libftdi-dev autoconf automake make git libftdi* libhidapi-hidraw0 software-properties-common  apt-transport-https ca-certificates
 sudo ldconfig
 cd ~/
-mkdir ~/openocd
 git clone --recursive https://github.com/whid-injector/openocd-linux temporary
 cd temporary
 chmod -R 755 OpenOCD_SourceCode_CH347/
 cd OpenOCD_SourceCode_CH347
 sudo ./bootstrap
 sudo autoreconf --force --install
-./configure --prefix=/home/<HERE-YOUR-USERNAME>/openocd/ --disable-doxygen-html --disable-doxygen-pdf --disable-gccwarnings --disable-wextra --enable-ch347
-make
+sudo ./configure --disable-doxygen-html --disable-doxygen-pdf --disable-gccwarnings --disable-wextra --enable-ch347
+sudo make
 cd /src
-./openocd --version
+sudo ./openocd --version
 cd ..
-make install
+sudo make install
 ```
-Now you can remove the "temporary" folder and use OpenOCD located in /home/HERE-YOUR-USERNAME/openocd
+Now you can remove the "temporary" folder and use OpenOCD.
+
 
 **Usage Example:** <br>
 `sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>

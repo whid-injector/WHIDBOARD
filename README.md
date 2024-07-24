@@ -116,19 +116,20 @@ sudo apt install libtool pkg-config texinfo libusb-dev libusb-1.0-0-dev libftdi-
 sudo ldconfig
 cd ~/
 mkdir ~/openocd
-git clone --recursive https://github.com/whid-injector/openocd-linux openocd
-cd openocd
+git clone --recursive https://github.com/whid-injector/openocd-linux temporary
+cd temporary
 chmod -R 755 OpenOCD_SourceCode_CH347/
 cd OpenOCD_SourceCode_CH347
 sudo ./bootstrap
 sudo autoreconf --force --install
-./configure --prefix=/home/<HERE-YOUR-USERNAME>/opeoncd/ --disable-doxygen-html --disable-doxygen-pdf --disable-gccwarnings --disable-wextra --enable-ch347
+./configure --prefix=/home/<HERE-YOUR-USERNAME>/openocd/ --disable-doxygen-html --disable-doxygen-pdf --disable-gccwarnings --disable-wextra --enable-ch347
 make
 cd /src
 ./openocd --version
 cd ..
 make install
 ```
+Now you can remove the "temporary" folder and use OpenOCD located in /home/<HERE-YOUR-USERNAME>/openocd
 
 **Usage Example:** <br>
 `sudo ./openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>

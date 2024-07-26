@@ -28,7 +28,7 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
   
   The username and password are both: **whidos**<br>
   
-  You can find a copy of the ISO [here](<PLACE HERE URL GOOGLE DRIVE>).<br>
+  You can find a copy of the ISO [here](https://drive.google.com/drive/folders/1BBXAXCxqmckBZOfDAAzAyk3inf9gF78c?usp=sharing).<br>
 
 
 

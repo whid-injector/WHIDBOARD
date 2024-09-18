@@ -3,7 +3,8 @@
 WHIDBOARD is the ultimate tool-suite for Hardware Hackers. It is designed to act as the perfect Swiss-Army-Knife for hacking any (I)IoT & Embedded devices.
 Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). Nonetheless, it also allows the hacker to enumerate (UART, JTAG & SWD) thanks to its 24 channels' **Pin Enumerator** feature, as well as the ability to act as a 8 channels **Logic Analyzer** at 24MHz. <br>
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/86d801be-93d6-4ebd-83dd-67e71f1b41a6" width=40% height=40%> 
+<img src="https://github.com/user-attachments/assets/f536c75f-f0fa-4374-8a7a-c25cc33cf330" width=40% height=40%> 
+
 
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
   
@@ -41,9 +42,9 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
       2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! **Remove Jumper and connect directly the 
 external Voltage Reference to Pin 1** <br>
 
-  <img src="https://github.com/user-attachments/assets/8eb1c5b4-af61-438d-a133-44e7e6f67090" width=40% height=40%>      
-      
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/92120d67-7f03-4040-8826-610156db9fd9" width=30% height=30%> 
+  <img src="https://github.com/user-attachments/assets/8428296f-638d-4126-8a92-ded81a5784ae" width=35% height=35%>     
+
+  <img src="https://github.com/user-attachments/assets/5d7bbfe7-428a-412b-977e-5f95413eadf5" width=30% height=30%> 
 
 ### 🐧LINUX
 #### Udev Rules Configuration

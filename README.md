@@ -106,6 +106,40 @@ external Voltage Reference to Pin 1** <br>
       sudo meson install -C builddir
       ```
 
+
+  + **ufprog**<br>
+      One more tool to read SPI NOR and NAND chips. Here is an Example usage:
+      ```sudo apt install libjson-c-dev libhidapi-dev
+      git clone https://github.com/hackpascal/ufprog
+      cd ufprog
+      cmake -DCMAKE_BUILD_TYPE=None -DBUILD_PORTABLE=OFF -DCMAKE_INSTALL_PREFIX=/usr -B build
+      cd build
+      make
+      make install
+      cp -r /usr/share/ufprog ~/.ufprog
+      ```
+
+      After that you can use it to read SPI flash chips like this:
+      ```# ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
+      Universal flash programmer for SPI-NAND 1.0
+      Author: Weijie Gao hackpascal@gmail.com
+      
+      Loaded controller plugin WCH CH347 (libusb)
+      Opened interface device 'ch347f-libusb' using driver 'ch347-libusb'
+      
+      Manufacturer: XTX
+      Part: XT26G01C
+      Capacity: 128MB
+      Page size: 2KB+128B
+      Clock: 60MHz
+      
+      Reading from flash at page 0 (0x0), count 65536 (size 0x8000000) ...
+      OOB: excluded. ECC: disabled.
+      [========================================================================] 100%
+      Time used: 59.09s, speed: 2.17MB/s
+      Succeeded
+      ```
+
 #### JTAG & SWD
 
 You can find copy of the WHIDBOARD's config files for both SWD & JTAG  [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Linux/openocd-linux). <br>

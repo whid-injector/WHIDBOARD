@@ -109,7 +109,8 @@ external Voltage Reference to Pin 1** <br>
 
   + **ufprog**<br>
       One more tool to read SPI NOR and NAND chips. Here is an Example usage:
-      ```sudo apt install libjson-c-dev libhidapi-dev
+      ```
+      sudo apt install libjson-c-dev libhidapi-dev
       git clone https://github.com/hackpascal/ufprog
       cd ufprog
       cmake -DCMAKE_BUILD_TYPE=None -DBUILD_PORTABLE=OFF -DCMAKE_INSTALL_PREFIX=/usr -B build
@@ -120,7 +121,8 @@ external Voltage Reference to Pin 1** <br>
       ```
 
       After that you can use it to read SPI flash chips like this:
-      ```ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
+      ```
+      ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
       Universal flash programmer for SPI-NAND 1.0
       Author: Weijie Gao hackpascal@gmail.com
       

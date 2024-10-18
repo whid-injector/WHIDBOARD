@@ -120,7 +120,7 @@ external Voltage Reference to Pin 1** <br>
       ```
 
       After that you can use it to read SPI flash chips like this:
-      ```# ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
+      ```ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
       Universal flash programmer for SPI-NAND 1.0
       Author: Weijie Gao hackpascal@gmail.com
       

@@ -111,7 +111,7 @@ external Voltage Reference to Pin 1** <br>
       One more tool to read SPI NOR and NAND chips. Here is an Example usage:
       ```
       sudo apt install libjson-c-dev libhidapi-dev
-      git clone https://github.com/hackpascal/ufprog
+      git clone https://github.com/whid-injector/ufprog
       cd ufprog
       cmake -DCMAKE_BUILD_TYPE=None -DBUILD_PORTABLE=OFF -DCMAKE_INSTALL_PREFIX=/usr -B build
       cd build

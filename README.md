@@ -327,12 +327,15 @@ The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on b
   
   <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/591f14fd-56c5-457f-a79b-716c6789c808" width=50% height=50%>    <br>
 
-## Compatible SOP8 & SOP16 Adaptors
+## Compatible with the Following SOP8, SOP16, WSON8, WCSLP, etc. Adaptors
   https://s.click.aliexpress.com/e/_DFY8wcn <br>
   <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/21575245-8296-4e93-9a1f-955bf56e8e4e" width=50% height=50%>    <br>
   
   https://s.click.aliexpress.com/e/_DmAewbN <br>
   <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/e3e6a079-be43-4891-ba33-9f0e9faee293" width=50% height=50%>    <br>
+
+  https://s.click.aliexpress.com/e/_DcZgEDr <br>
+  <img src="https://github.com/user-attachments/assets/14f713f7-1f8e-43f4-ae3d-b58f52207954" width=30% height=30%>    <br>
 
   https://s.click.aliexpress.com/e/_DkWdSpp <br>
   <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/0e76ddfe-076e-4b81-91d7-d2fe16581b4c" width=50% height=50%>    <br>

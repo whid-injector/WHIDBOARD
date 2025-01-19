@@ -253,6 +253,8 @@ FLASH EEPROM:
 
 <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/91b85693-23d0-4aaa-9b52-7cc4e0f8849d" width=50% height=50%>    <br>
 
+(Note for Troubleshooting) In case you have issues in communicating with the Parallax MCU over ttyACM0... try "playing" with "JTGR Reset" button while using the commands above. With the right timing you can unbrick it! <br>
+
 [OPTIONAL STEPS] IN CASE YOU WANT TO COMPILE YOUR OWN FW:
       
 ```

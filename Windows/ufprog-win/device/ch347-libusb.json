@@ -1,0 +1,17 @@
+{
+	"driver": "ch347-libusb",
+	"if_type": [ "spi", "i2c" ],
+	"config": {
+		"match": [
+			{
+				"model": "ch347t"
+			},
+			{
+				"model": "ch347f"
+			}
+		],
+		"spi": {
+			"chip-select": 0
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "last-device": "ch347",
+  "device-configs": {
+    "ch347": {
+      "max-speed-hz": 60000000
+    }
+  }
+}

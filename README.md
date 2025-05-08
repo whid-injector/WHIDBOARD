@@ -122,7 +122,7 @@ external Voltage Reference to Pin 1** <br>
 
       After that you can use it to read SPI flash chips like this:
       ```
-      ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
+      sudo ufsnandprog dev=ch347f-libusb ftl=none read raw spi.bin
       Universal flash programmer for SPI-NAND 1.0
       Author: Weijie Gao hackpascal@gmail.com
       
@@ -140,6 +140,31 @@ external Voltage Reference to Pin 1** <br>
       [========================================================================] 100%
       Time used: 59.09s, speed: 2.17MB/s
       Succeeded
+      ```
+      OR <br>
+      ```
+      sudo ufsnorprog dev=ch347f-libusb probe
+      Universal flash programmer for SPI-NOR 1.0 
+      Author: Weijie Gao <hackpascal@gmail.com>
+      Loaded controller plugin WCH CH347 (libusb)
+      Opened interface device 'ch347f-libusb' using driver 'ch347-libusb'
+
+      Manufacturer:       Infineon/Cypress/Spansion
+      Part:               S25FL064P
+      Capacity:           8MB
+      Clock:              60MHz
+
+      JEDEC ID:           01 02 16 4D
+      Block/Sector size:  64KB 
+      Page size:          256B
+      Max speed:          108MHz
+      Protocol:           SPI
+      Read I/O:           1-1-1
+      Write I/O:          1-1-1
+      
+      Sector Map:
+          128KB ( 4KB 8KB 64KB )
+          8064KB ( 64KB )
       ```
 
 #### JTAG & SWD

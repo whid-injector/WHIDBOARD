@@ -3,7 +3,7 @@
 WHIDBOARD is the ultimate tool-suite for Hardware Hackers. It is designed to act as the perfect Swiss-Army-Knife for hacking any (I)IoT & Embedded devices.
 Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). Nonetheless, it also allows the hacker to enumerate (UART, JTAG & SWD) thanks to its 24 channels' **Pin Enumerator** feature, as well as the ability to act as a 8 channels **Logic Analyzer** at 24MHz. <br>
 
-<img src="https://github.com/user-attachments/assets/f536c75f-f0fa-4374-8a7a-c25cc33cf330" width=40% height=40%> 
+<img src="img/1.png" width=50% > 
 
 
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
@@ -18,6 +18,8 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
   - All the utilities (i.e. fxload, propoloader, openspin, etc.) to build and flash both PinEnumerator and Logic Analyzer firmwares
     
       *Works both WHIDBOARD's BRUSCHETTAPRO or the classic BRUSCHETTABOARD<br>
+
+      <img src="img/WHIDOS.png" width=30% >
   
   Plus some basic tools like:
   - Nmap & Zenmap
@@ -42,9 +44,7 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
       2) The operational range in case you prefer to use the DUT's Voltage Reference (i.e. VREF) must remain **within the 1.7V - 3.6V range**!!! **Remove Jumper and connect directly the 
 external Voltage Reference to Pin 1** <br>
 
-  <img src="https://github.com/user-attachments/assets/8428296f-638d-4126-8a92-ded81a5784ae" width=35% height=35%>     
-
-  <img src="https://github.com/user-attachments/assets/5d7bbfe7-428a-412b-977e-5f95413eadf5" width=30% height=30%> 
+  <img src="img/2.png" width=35% ><img src="img/3.png" width=30% > 
 
 ### 🐧LINUX
 #### Udev Rules Configuration
@@ -62,7 +62,7 @@ external Voltage Reference to Pin 1** <br>
   In order to use WHIDBOARD as SPI reader/programmer be sure you have the Jumper on the CS0-Cx as in the image below. <br>
   Nearby, there is also a DIP-switch to enable/disable the WP pin.<br>
   
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/84e8acf0-5d6b-4e1e-9416-65b591129294" width=30% height=30%><br>
+  <img src="img/4.jpg" width=30% ><br>
       
   + **SNANDer**<br>
       This is a tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.  To compile SNANDer on Linux:
@@ -81,7 +81,7 @@ external Voltage Reference to Pin 1** <br>
       snander -r SPI_Firmware_dump.bin
      ```
 
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/5b477959-1429-43c1-8020-c29d9e531f26" width=51% height=51%> <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4f4aedd5-4b72-48d2-bb36-29b7848d400a" width=49% height=49%><br>
+      <img src="img/5.png" width=51% > <img src="img/6.png" width=49%><br>
 
 
   + **Flashrom**<br>
@@ -98,7 +98,7 @@ external Voltage Reference to Pin 1** <br>
       dmesg -wr
       sudo ./flashrom -p ch347_spi  -r firmware.bin
       ```
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/1b29c895-e763-483b-8b8e-74b17e8d22f3" width=50% height=50%>
+      <img src="img/7.png" width=50%>
       
       If everything works, then you can install system-wide:
       ```
@@ -197,7 +197,7 @@ Now you can remove the "temporary" folder and use OpenOCD.
 `sudo openocd -f WHIDBOARD_JTAG.cfg -f target.cfg`<br>
 `sudo openocd -f WHIDBOARD_SWD.cfg -f target.cfg`<br>
 
-<img src="https://github.com/user-attachments/assets/99920ae7-2d1e-4226-8afe-c2b2005cf9a6" width=27% height=27%> <img src="https://github.com/user-attachments/assets/e76bf937-4de6-4971-aab7-e6bcda71ac2e" width=60% height=60%>
+<img src="img/9.png" width=27% > <img src="img/10.png" width=60% >
 
 ### 🪟WINDOWS
 
@@ -211,7 +211,7 @@ Now you can remove the "temporary" folder and use OpenOCD.
   + **WHIDBOARD Windows Tool**<br>
     This is a pre-compiled (GUI-based) tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward. You can find the sources [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Windows/WHIDBOARD%20Tool/sourcecode).<br>
       
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/7b9c49de-485b-4eb2-9e7f-51d049ad2230" width=50% height=50%>
+      <img src="img/11.png" width=50% >
       
   + **SNANDer**<br>
     This is yet another pre-compiled tool for the BRUSCHETTAPRO to read/write both SPI & I2C flash memories. Its usage is pretty straight forward.
@@ -221,8 +221,8 @@ Now you can remove the "temporary" folder and use OpenOCD.
       `snander.exe -r SPI_Dump_SNANDer.bin`<br>
       `snander.exe -E 24c08 -r I2C_24c08_Dump_SNANDer.bin`<br>
       
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/3c82fc90-8efa-4d05-baba-33de20e48cb7" width=50% height=50%>
-      <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/1fb0a2e6-f313-4410-9465-b783772eed6c" width=50% height=50%>
+      <img src="img/12.png" width=50%>
+      <img src="img/13.png" width=50% >
   
   + **Flashrom**<br>
     This is yet another pre-compiled tool for the BRUSCHETTAPRO to read/write SPI flash memories. Its usage is pretty straight forward.
@@ -230,7 +230,7 @@ Now you can remove the "temporary" folder and use OpenOCD.
       Usage Example:<br>
       `flashrom.exe -p ch347_spi -r firmware.bin`<br>
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/1bcf9bb0-76b1-45b0-83b9-0a8e001f7b78" width=50% height=50%>
+<img src="img/14.png" width=50% >
 
 ####  JTAG & SWD
 
@@ -276,7 +276,7 @@ FLASH EEPROM:
 `sudo proploader -p /dev/ttyACM0 -v -e JTAGulator.eeprom` <br>
 [IMPORTANT]: WAIT at least 60 seconds and then check if JTGR works: `sudo screen /dev/ttyACM0 115200`
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/91b85693-23d0-4aaa-9b52-7cc4e0f8849d" width=50% height=50%>    <br>
+<img src="img/15.png" width=50% >    <br>
 
 (Note for Troubleshooting) In case you have issues in communicating with the Parallax MCU over ttyACM0... try "playing" with "JTGR Reset" button while using the commands above. With the right timing you can unbrick it! <br>
 
@@ -298,19 +298,19 @@ To interact with the Pin Enumerator you have to plug the WHIDBOARD and connect t
 Usage example: `sudo screen /dev/ttyACM0 115200` then press any key and you will be welcomed by the JTAGULATOR menu. <br>
     
     
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/f6627e09-008b-4064-b085-5766478a6963" width=50% height=50%>    <br>
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/746f82cf-b3ce-4581-b2ab-9f05a28e4999" width=50% height=50%>    <br>
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/75ad8724-2835-4ec7-9ebd-756fd2b92920" width=50% height=50%>    <br>
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/b5ba9e8d-d8f7-4730-a6a8-59e1c8f153ef" width=50% height=50%>    <br>
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/a885b474-3161-49cf-aeae-0fc5d5afe8f7" width=50% height=50%>    <br>
+  <img src="img/16.png" width=50% >    <br>
+    <img src="img/17.png" width=50% >    <br>
+    <img src="img/18.png" width=50% >    <br>
+    <img src="img/19.png" width=50% >    <br>
+    <img src="img/20.png" width=50% >    <br>
 
 **JTGR as Logic Analyzer (Not Recommended since is too slow):** <br>
 The JTGR works ok on PulseView… BUT is too slow for anything usable… It's NOT FAST ENOUGH!!! <br>
 Remember to close the serial terminal BEFORE opening Pulseview! You need to free the ttyACM0 connection between JTGR and Pulseview!!! Once done playing with JTGR + Pluseview… go back to the serial connection with SCREEN/PUTTY and press CTRL+X to exit the Logic Analyzer feature!!!
 
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/f801af0f-cbbc-454d-bf4f-888f6926f5ae" width=50% height=50%>    <br>
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/ab8a5d5d-59e7-4462-b5f5-bcb58a15312f" width=50% height=50%>    <br>
-    <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/4731f8f1-42d7-4860-931c-afd1d52194ef" width=50% height=50%>    <br>
+  <img src="img/21.png" width=50% >    <br>
+    <img src="img/22.png" width=50% >    <br>
+    <img src="img/23.png" width=50% >    <br>
 
 ## ​🇱​​🇴​​🇬​​🇮​​🇨​ ​🇦​​🇳​​🇦​​🇱​​🇾​​🇿​​🇪​​🇷​
 
@@ -319,7 +319,8 @@ This feature of WHIDBOARD supports a maximum sampling rate of up to 24MHz and ca
 ### Hardware Introduction
 
 This logic analyzer design is based on the Cypress CY7C6813A controller and its own the block-diagram is represented below:
-![image](https://github.com/whid-injector/WHIDBOARD/assets/26245612/39fdee0a-c93d-4e06-8b07-5695950fb687)
+
+<img src="img/24.png" width=50% >    <br>
 
 ### Flashing the Firmware on Linux
 You can find fxload and all firmwares needed, [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Linux/fxload).
@@ -342,9 +343,9 @@ sudo ./fxload -I fx2lafw-sigrok-fx2-8ch.ihx -D /dev/bus/usb/002/007 -d 1d50:608c
 ### Use Cases
 The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on both [Linux](https://sigrok.org/wiki/Linux) & [Windows](https://sigrok.org/wiki/Windows).
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/6777c847-b9d8-4d60-b6cf-1409532bad8f" width=70% height=70%>    <br>
+<img src="img/25.png" height=70%>    <br>
 
-<img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/c8cd70a3-ab2e-4ea5-8626-c28bfa17dbb2" width=70% height=70%>    <br>
+<img src="img/26.png"  height=70%>    <br>
 
 ## 3D Printed Case
   [Here](https://github.com/whid-injector/WHIDBOARD/tree/main/3D_Case) you can find the STL CAD file to print your own case for WHIDBOARD. <br>
@@ -352,33 +353,33 @@ The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on b
   If you live in EU, I do love the guys from [Craftrum](https://www.craftrum.eu), they already printed ton of cases for me 🥇 <br>
   The screws used are a 2x6mm Flat-Head Screws (e.g. https://s.click.aliexpress.com/e/_DEYh5yR) <br>
   
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/591f14fd-56c5-457f-a79b-716c6789c808" width=50% height=50%>    <br>
+  <img src="img/27.png" width=50% >    <br>
 
 ## Compatible with the Following SOP8, SOP16, WSON8, WCSLP, etc. Adaptors
   https://s.click.aliexpress.com/e/_DFY8wcn <br>
-  <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/21575245-8296-4e93-9a1f-955bf56e8e4e" width=50% height=50%>    <br>
+  <img src="img/28.png" width=50% >    <br>
   
   https://s.click.aliexpress.com/e/_DmAewbN <br>
-  <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/e3e6a079-be43-4891-ba33-9f0e9faee293" width=50% height=50%>    <br>
+  <img src="img/29.png" width=50% >    <br>
 
   https://s.click.aliexpress.com/e/_DcZgEDr <br>
-  <img src="https://github.com/user-attachments/assets/14f713f7-1f8e-43f4-ae3d-b58f52207954" width=30% height=30%>    <br>
+  <img src="img/35.png" width=50% >    <br>
 
   https://s.click.aliexpress.com/e/_DkWdSpp <br>
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/0e76ddfe-076e-4b81-91d7-d2fe16581b4c" width=50% height=50%>    <br>
+  <img src="img/30.png" width=50% >    <br>
 
   https://s.click.aliexpress.com/e/_DdUBzir <br>
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/cb7be7b9-4236-481d-adad-9647c30d9ec5" width=50% height=50%>    <br>
+  <img src="img/31.png" width=50% >    <br>
   
   https://s.click.aliexpress.com/e/_DEcb3Zl <br>
-  <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/b90da7b9-58e0-4b17-a58b-c8d496bca79d" width=50% height=50%>    <br>
+  <img src="img/32.png" width=50% >    <br>
   
   https://s.click.aliexpress.com/e/_DE1eEVh <br>
-  <img src="https://github.com/whid-injector/BRUSCHETTA-board/assets/26245612/aaec8cd1-3615-4089-9931-4b4a7f478b36" width=50% height=50%>    <br>
+  <img src="img/33.png" width=50% >    <br>
 
 ## Tips & Tricks
   In case you plan to use WHIDBOARD on a VM I do recommend to enable the USB3.1 controller. <br>
-  <img src="https://github.com/whid-injector/WHIDBOARD/assets/26245612/d9d47e8d-c61d-4c0e-a5e2-f8fc679b357b" width=70% height=70%> 
+  <img src="img/34.png" width=70% > 
 
 
 ## How To Report Bugs

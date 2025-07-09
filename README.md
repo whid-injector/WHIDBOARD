@@ -5,6 +5,8 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 
 <img src="img/1.png" width=50% > 
 
+[![WHIDBOARD Overview](img/wyt.png)]([https://www.youtube.com/watch?v=r7BOBPbq83M](https://www.youtube.com/watch?v=0IkFaHAO8i0))
+
 
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
   
@@ -394,3 +396,9 @@ The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on b
   7. Is the target computer an Apple Product?
   8. Is the target USB port an USB3.0?
   9. Eventual Explanation Notes, Screenshots, Videos, etc.
+
+## WHID's Trainings
+The 𝙊𝙛𝙛𝙚𝙣𝙨𝙞𝙫𝙚 𝙃𝙖𝙧𝙙𝙬𝙖𝙧𝙚 𝙃𝙖𝙘𝙠𝙞𝙣𝙜 𝙏𝙧𝙖𝙞𝙣𝙞𝙣𝙜 is a Self-Paced training including Videos, a printed Workbook and a cool Hardware Hackit Kit. And... you get everything shipped home Worldwide! 🌍🔥😎<br>
+For more info... ➡ https://www.whid.ninja/store <br><br>
+
+[![WHID's Trainings](https://files.gandi.ws/64/2e/642e05f6-84e1-48fe-8a59-d678c7d635e3.PNG)](https://www.youtube.com/watch?v=zbUuBZJIHkE)

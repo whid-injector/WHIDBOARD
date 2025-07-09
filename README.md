@@ -5,7 +5,10 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 
 <img src="img/1.png" width=50% > 
 
-[![WHIDBOARD Overview](img/wyt.png)]([https://www.youtube.com/watch?v=r7BOBPbq83M](https://www.youtube.com/watch?v=0IkFaHAO8i0))
+[![WHIDBOARD Overview](img/wyt.png)](https://www.youtube.com/watch?v=0IkFaHAO8i0)
+
+
+[![WHID's Trainings](https://files.gandi.ws/64/2e/642e05f6-84e1-48fe-8a59-d678c7d635e3.PNG)](https://www.youtube.com/watch?v=zbUuBZJIHkE)
 
 
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​

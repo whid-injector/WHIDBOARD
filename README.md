@@ -399,7 +399,7 @@ The Logic Analyzer feature of WHIDBOARD is compatible with PulseView/Sigrok on b
   9. Eventual Explanation Notes, Screenshots, Videos, etc.
 
 ## WHID's Trainings
-The 𝙊𝙛𝙛𝙚𝙣𝙨𝙞𝙫𝙚 𝙃𝙖𝙧𝙙𝙬𝙖𝙧𝙚 𝙃𝙖𝙘𝙠𝙞𝙣𝙜 𝙏𝙧𝙖𝙞𝙣𝙞𝙣𝙜 is a Self-Paced training including Videos, a printed Workbook and a cool Hardware Hackit Kit. And... you get everything shipped home Worldwide! 🌍🔥😎<br>
+The 𝙊𝙛𝙛𝙚𝙣𝙨𝙞𝙫𝙚 𝙃𝙖𝙧𝙙𝙬𝙖𝙧𝙚 𝙃𝙖𝙘𝙠𝙞𝙣𝙜 𝙏𝙧𝙖𝙞𝙣𝙞𝙣𝙜 is a Self-Paced training including Videos, a printed Workbook and a cool Hardware Hacking Kit. And... you get everything shipped home Worldwide! 🌍🔥😎<br>
 For more info... ➡ https://www.whid.ninja/store <br><br>
 
 [![WHID's Trainings](https://files.gandi.ws/64/2e/642e05f6-84e1-48fe-8a59-d678c7d635e3.PNG)](https://www.youtube.com/watch?v=zbUuBZJIHkE)

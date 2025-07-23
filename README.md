@@ -235,6 +235,10 @@ Now you can remove the "temporary" folder and use OpenOCD.
 
 <img src="img/14.png" width=50% >
 
+  + **ASprogrammer (Dregmod Edition)**<br>
+      This Windows GUI-based tool supports supports both I2C & SPI Flash Memories:<br>
+      https://github.com/whid-injector/asprogrammer-dregmod<br>
+
 ####  JTAG & SWD
 
 You can find copy of precompiled OpenOCD.exe and copy of the WHIDBOARD's config files for both SWD & JTAG [here](https://github.com/whid-injector/WHIDBOARD/tree/main/Windows/opeoncd-win). <br> 

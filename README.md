@@ -8,6 +8,9 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 
 <a href="https://www.youtube.com/watch?v=0IkFaHAO8i0">   <img     src="img/wyt.png"     alt="WHIDBOARD Overview"     width="350"   > </a>
 
+## 🛒 Need one? 🛒
+**Official Worldwide Manufacturer**: https://lab401.com/products/whidboard-pro
+
 
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
   

@@ -1,15 +1,15 @@
-# WHIDBOARD
+# **WHIDBOARD: Plug it in, Set it up &amp; Get ready to Hack!** <br>
 
 <img src="img/1.png" width=30% > 
 
-🔥😎🏴‍☠️ **WHIDBOARD: Plug it in, Set it up &amp; Get ready to Hack!** 🏴‍☠️😎🔥<br>
 WHIDBOARD is the ultimate tool-suite for Hardware Hackers. It is designed to act as the perfect Swiss-Army-Knife for hacking any (I)IoT & Embedded devices.
 Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the interaction with multiple protocols (i.e. UART, SPI, I2C, JTAG & SWD) as well as different Logic Levels (i.e. 1.8V, 2.5V, 3.3V and the VREF of the target itself). Nonetheless, it also allows the hacker to enumerate (UART, JTAG & SWD) thanks to its 24 channels' **Pin Enumerator** feature, as well as the ability to act as a 8 channels **Logic Analyzer** at 24MHz. <br>
 
+
 <a href="https://www.youtube.com/watch?v=0IkFaHAO8i0">   <img     src="img/wyt.png"     alt="WHIDBOARD Overview"     width="350"   > </a>
 
-## 🛒 Need one? 🛒
-**Official Worldwide Manufacturer**: https://lab401.com/products/whidboard-pro
+## 🛒🏪 ​🇼​​🇭​​🇪​​🇷​​🇪​ ​🇹​​🇴​ ​🇧​​🇺​​🇾​ 🏪🛒
+**Official Authorized Worldwide Manufacturer & Distrbutor🌍**: **https://lab401.com/products/whidboard-pro**
 
 
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
@@ -39,7 +39,9 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
   
   You can find a copy of the ISO [here](https://drive.google.com/drive/folders/1BBXAXCxqmckBZOfDAAzAyk3inf9gF78c?usp=sharing).<br>
 
+## ​🇹​​🇸​​🇺​​🇷​​🇺​​🇬​​🇮​ ​🇴​​🇸​ ​🇮​​🇸​​🇴
 
+Thanks to the help of Marco & Giovanni... now WHIDBOARD is 100% supported by [Tsurugi OS!](https://tsurugi-linux.org/23cd183100175325bdf281a4292cd257bheu25/tsurugi_linux_blackhat_edition_2025.php)<br>
 
 ## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
 

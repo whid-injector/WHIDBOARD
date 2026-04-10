@@ -12,6 +12,10 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
 **Official Authorized Worldwide Manufacturer & Distrbutor🌍**: **https://lab401.com/products/whidboard-pro**
 
 
+## ​🇹​​🇸​​🇺​​🇷​​🇺​​🇬​​🇮​ ​🇴​​🇸​ ​🇮​​🇸​​🇴
+
+Thanks to the help of Marco & Giovanni... now WHIDBOARD is 100% supported by [Tsurugi OS!](https://tsurugi-linux.org/downloads.php)<br>
+
 ## ​🇼​​🇭​​🇮​​🇩​​🇴​​🇸​ ​🇱​​🇮​​🇻​​🇪​ ​🇮​​🇸​​🇴​
   
   WHIDOS is a Linux-based Operative System preconfigured with all tools to work with WHIDBOARD and BRUSCHETTABOARD:<br>
@@ -39,9 +43,7 @@ Thanks to its core controller (a.k.a. **BRUSCHETTAPRO**) it can support the inte
   
   You can find a copy of the ISO [here](https://drive.google.com/drive/folders/1BBXAXCxqmckBZOfDAAzAyk3inf9gF78c?usp=sharing).<br>
 
-## ​🇹​​🇸​​🇺​​🇷​​🇺​​🇬​​🇮​ ​🇴​​🇸​ ​🇮​​🇸​​🇴
 
-Thanks to the help of Marco & Giovanni... now WHIDBOARD is 100% supported by [Tsurugi OS!](https://tsurugi-linux.org/23cd183100175325bdf281a4292cd257bheu25/tsurugi_linux_blackhat_edition_2025.php)<br>
 
 ## ​🇧​​🇷​​🇺​​🇸​​🇨​​🇭​​🇪​​🇹​​🇹​​🇦​🇵​​🇷​​🇴 : MULTIPROTOCOL PROGRAMMER & DEBUGGER
 
